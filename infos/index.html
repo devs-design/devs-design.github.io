@@ -353,6 +353,12 @@
         var scroll = document.querySelector('.scroll');
         scroll.classList.toggle("active", window.scrollY > 500)
       });
+	  function scrolltop(){
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        })
+      }
     </script>
 </body>
 </html>
