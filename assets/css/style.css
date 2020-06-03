@@ -1,0 +1,118 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+/* Change Brand Font */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color: rgb(170, 171, 240);
+}
+
+/* Make Header Image Responsive */
+.img {
+  background-image: url("../images/Team.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+.jumbotron .container{
+  margin-bottom: 110px;
+}
+
+/* Header Image Sub-Title */
+.st {
+  font-size: 24px;
+}
+.im{
+  background-image: url("../images/UserfulReferences.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+/* Change Footer Social Icon Color */
+a {
+  color:  rgb(53, 56, 220);
+}
+a:hover {
+  color: rgb(148, 154, 233);
+}
+.fa-arrow-circle-down,.fa-arrow-circle-up{
+  color: rgb(0, 123, 255);
+}
+.fa-arrow-circle-down:hover, .fa-arrow-circle-up:hover{
+  cursor: pointer;
+}
+.scroll{
+  position: fixed;
+  bottom: 1000px;
+  right: 30px;
+  padding-top: 20px;
+  z-index: 100000;
+  background-repeat: no-repeat;
+  background-position: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+}
+.scroll.active{
+  visibility: visible;
+  opacity: 1;
+  bottom: 50px;
+}
+
+#About{
+  padding-top: 25px;
+}
+.bg{
+  background-color: rgb(94, 121, 150);
+  color: #fff;
+  border-radius: 10px ;
+}
+.imgs{
+  border-radius: 50%;
+  height: 200px;
+  width: 150px;
+}
+.btn-link:hover{
+  cursor: pointer;
+}
+#Contact .btn{
+  transition: 0.2s;
+  overflow: hidden;
+  display: inline-block;
+}
+#Contact .btn:hover{
+    box-shadow: 0 0 10px 0 #2196f3, 0 0 40px 0 #2196f3, 0 0 80px 0 #2196f3;
+    transition-delay: 0.1s;
+}
+.project{
+  width: 540px;
+  height: 294px;
+}
+.jumbotron .btn-lg{
+  transition: 0.2s;
+  overflow: hidden;
+  display: inline-block;
+}
+.jumbotron .btn-lg:hover{
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 60px #2196f3;
+  transition-delay: 0.1s;
+}
