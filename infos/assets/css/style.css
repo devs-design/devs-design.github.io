@@ -55,7 +55,7 @@ a:hover {
   color: rgb(148, 154, 233);
 }
 .fa-arrow-circle-down,.fa-arrow-circle-up{
-  color: rgb(0, 123, 255);
+  color: #007bff;
 }
 .fa-arrow-circle-down:hover, .fa-arrow-circle-up:hover{
   cursor: pointer;
