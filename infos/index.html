@@ -11,10 +11,12 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" type="text/javascript"></script>
   <title>INFOS</title>
 </head>
 <body>
@@ -170,13 +172,13 @@
     <h2 class="font-weight-bold text-primary text-center pt-5 mt-3 mb-5"><i class="fas fa-envelope-open"></i> <u>Contact US</u></h2>    <!-- Contact Us Heading -->
     <div class="row">         
       <div class="col-md-8 wow slideInLeft" data-wow-duration="2s">   
-        <form action="#" method="post">
-          <input class="form-control" name="name" placeholder="Name" /><br />
-          <input class="form-control" name="phone" placeholder="Phone" /><br />
-          <input class="form-control" name="email" placeholder="E-mail" /><br />
-          <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
-          <input class="btn btn-outline-primary" type="submit" value="Send" /><br /><br />
-        </form>
+
+          <input type="text" class="form-control" name="name" id="name" placeholder="Name" /><br />
+          <input class="form-control" name="phone" id="phone" placeholder="Phone" maxlength="10" minlength="10" /><br />
+          <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" /><br />
+          <textarea class="form-control" name="text" id="message" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+          <input class="btn btn-outline-primary" id="sent" type="submit" value="Send" /><br /><br />
+        
       </div>  
 
       <div class="col-md-4 text-center wow slideInRight" data-wow-duration="2s">   
