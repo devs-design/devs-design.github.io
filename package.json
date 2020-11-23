@@ -1,0 +1,11 @@
+{
+  "name": "google-maps-geolocation-example-master",
+  "version": "1.0.0",
+  "description": "A simple example on how to track user position with [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) and display it on a map with [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/). Checkout the demo [here](https://google-maps-geolocation.bitballoon.com/).",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RAVI",
+  "license": "ISC"
+}
